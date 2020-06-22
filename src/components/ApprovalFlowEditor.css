@@ -1,0 +1,62 @@
+.Approval-content {
+  display: flex;
+  flex-direction: column;
+  color: #393939;
+}
+
+.Approval-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.Approval-header > h2 {
+  margin: 0;
+}
+
+.Approval-header > button {
+  height: 30px;
+  background: none;
+  border: none;
+  color: #5d21d2;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Approval-add-button {
+  height: 30px;
+  background: none;
+  border: none;
+  color: #5d21d2;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Approval-thresholds {
+  margin: 12px auto;
+}
+
+.Approval-thresholds > div {
+  margin: 18px auto;
+}
+.Approval-thresholds > div > input {
+  margin: 0 12px;
+  border: none;
+  border-bottom: 1px solid #5d21d2;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+}
+.Approval-thresholds > div > select {
+  margin: 0 12px;
+  border: none;
+  border-bottom: 1px solid #5d21d2;
+  height: 30px;
+}
+.Approval-thresholds > div > button {
+  height: 30px;
+  background: none;
+  border: none;
+  color: #5d21d2;
+  font-weight: bold;
+  cursor: pointer;
+}

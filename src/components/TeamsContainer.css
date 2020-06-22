@@ -1,0 +1,54 @@
+.TeamsContainer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #393939;
+}
+
+.Team-container {
+  border: 1px solid black;
+  width: 90%;
+  max-width: 700px;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+.Team-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.Team-header > h2 {
+  margin: 0;
+}
+
+.Team-edit-button {
+  height: 30px;
+  background: none;
+  border: none;
+  color: #5d21d2;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Team-usersBlock {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Team-usersList {
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.Team-usersList > li {
+  list-style: none;
+  padding-bottom: 6px;
+  text-align: center;
+}
+
+.Team-userList-name {
+  color: #5d21d2;
+  font-weight: bold;
+}
